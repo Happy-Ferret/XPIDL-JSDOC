@@ -1,6 +1,6 @@
 # XPIDL-JSDOC
 
-Covert [XPIDL](https://developer.mozilla.org/en-US/docs/XPIDL "XPIDL") to JSDoc.
+Covert from [XPIDL](https://developer.mozilla.org/en-US/docs/XPIDL "XPIDL") to JSDoc.
 
 It's very dirty script.
 
