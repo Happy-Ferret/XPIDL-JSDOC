@@ -15,7 +15,7 @@ It's very dirty script.
 
 e.g)
 
-	 python sdk/bin/jsdoc.py --cachedir=cahce -o base.h -I idl idl/<IDL_NAME>
+	 python sdk/bin/jsdoc.py --cachedir=cahce -o idl.js -I idl idl/<IDL_NAME>
 
 
 ## Contributing
