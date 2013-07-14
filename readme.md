@@ -30,4 +30,4 @@ The Easiest Fastest Way to Rewrite The Script.
 
 ## License
 
-MIT
+The BSD 3-Clause License 
