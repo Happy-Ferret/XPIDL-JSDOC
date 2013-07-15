@@ -185,6 +185,7 @@ example_tmpl = """ * @property %(nativeName)s %(memberIDL)s
 """
 
 iface_template_epilog = """*/
+var %(implclass)s = {};
 """
 
 attr_infallible_tmpl = """"""
@@ -231,7 +232,7 @@ def write_interface(iface, fd):
                                      'memberIDL':member.toIDL()})
         # fd.write('\n')
 
-    fd.write(iface_template_epilog)
+    fd.write(iface_template_epilog % names)
 
 if __name__ == '__main__':
     from optparse import OptionParser
